@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Ski Resort Map</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-image: url('https://www.transparenttextures.com/patterns/foggy-birds.png');
+        background-color: #f4f1ea;
+        font-family: 'Georgia', serif;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen text-slate-800">
+    <header class="bg-gradient-to-b from-amber-100 to-white border-b-4 border-amber-300 shadow-md py-6">
+      <div class="max-w-5xl mx-auto px-4 text-center">
+        <h1 class="text-4xl font-bold text-amber-900 tracking-wide">Idledale Ski Resort</h1>
+        <p class="text-lg text-amber-800 mt-2 italic">"Vintage slopes, modern charm."</p>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-10">
+      <section class="rounded-2xl overflow-hidden shadow-lg border border-slate-300 bg-white">
+        <div class="aspect-video">
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=1IkMJJ7nJU5ewBqP4OvaNxVMjFuxNpe0&hl=en&ehbc=2E312F"
+            width="100%"
+            height="480"
+            class="w-full h-full"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="mt-10 text-center">
+        <h2 class="text-2xl font-semibold text-amber-900">Explore the Slopes</h2>
+        <p class="mt-2 text-slate-700 max-w-2xl mx-auto">
+          This interactive resort map highlights lifts, lodges, trails, and key terrain features across the Idledale area. Zoom, pan, or click markers for more detail.
+        </p>
+      </section>
+    </main>
+
+    <footer class="mt-20 py-6 bg-amber-100 text-center text-sm text-slate-600 border-t border-amber-200">
+      © 2025 Idledale Ski Resort. All rights reserved.
+    </footer>
+  </body>
+</html>
